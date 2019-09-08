@@ -78,7 +78,7 @@ public class ReetrantLockDemo {
         Arunnable arunnable = new Arunnable(reetrantLockDemo);
         Brunnable brunnable = new Brunnable(reetrantLockDemo);
         threads.submit(arunnable);
-        threads.submit(brunnable);1122
+        threads.submit(brunnable);11221
     }
 
 }
